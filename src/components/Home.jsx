@@ -10,6 +10,10 @@ import js from "../assets/js.svg";
 import mysql from "../assets/mysql.svg";
 import python from "../assets/python.svg";
 import tailwind from "../assets/tailwind.svg";
+import astronomy from "../assets/astronomy.svg";
+import albania from "../assets/albania.svg";
+import apple from "../assets/apple.svg";
+import feedback from "../assets/feedback.svg";
 
 
 export default function Home() {
@@ -34,7 +38,7 @@ export default function Home() {
 
        {/* Botões de Contato e  Download */}
       <div>
-        <div  className="flex items-center absolute top-64 left-36 flex font-bela z-20">
+        <div  className="flex items-center absolute top-60 left-36 flex font-bela z-20">
           <div>
             <a href="/KetlynMelo.pdf" download="KetlynMelo.pdf">
               <button className="bg-amarelo text-white text-[9px] px-2 py-1 rounded mr-4">Download CV</button>
@@ -99,9 +103,49 @@ export default function Home() {
 
         </div>
          {/* Fim habilidades img */}
-
       </div>
       {/* FIM textos HABILIDADE FRONT E BACK */}
+
+      {/* CARROSSEL*/}
+      <div>
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Astronomy</h1>
+          <a href="https://astronomy-website.netlify.app/"><img src={astronomy} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+          <p>Apenas Desktop</p>
+        </div>
+
+
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Albânia</h1>
+          <a href="https://site-albania12a.netlify.app/"><img src={albania} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+          
+        </div>
+
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Cópia Apple</h1>
+          <a href="https://applecopiasaul.netlify.app/"><img src={apple} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">FeedBack</h1>
+          <a href="https://feedback-ketlynmelo03ma.vercel.app/"><img src={feedback} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+
+        
+
+      </div>
 
     </div>
   );
