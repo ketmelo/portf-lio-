@@ -14,7 +14,11 @@ import astronomy from "../assets/astronomy.svg";
 import albania from "../assets/albania.svg";
 import apple from "../assets/apple.svg";
 import feedback from "../assets/feedback.svg";
-
+import opti from "../assets/opti.svg";
+import copa from "../assets/copa.svg";
+import zap from "../assets/zap.svg";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 export default function Home() {
   return (
@@ -71,7 +75,7 @@ export default function Home() {
 
           {/* Back end texto */}
         <div className="text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
-          <h1 className="text-amarelo text-2xl text-center font-bela font- mb-3">Back-end</h1>
+          <h1 className="text-amarelo text-2xl text-center font-bela font-semibold mb-3">Back-end</h1>
           <p className=""> <strong className="text-amarelo">Desenvolvimento Python: </strong> 
              Conhecimento fundamental em Python para criar soluções simples e escaláveis.</p>
 
@@ -108,8 +112,9 @@ export default function Home() {
 
       {/* CARROSSEL*/}
       <div>
+        <h1 className="text-amarelo text-3xl text-center font-bela mt-10">Meus Projetos</h1>
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
-          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Astronomy</h1>
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Astronomy</h1>
           <a href="https://astronomy-website.netlify.app/"><img src={astronomy} alt="" className="rounded"/></a>
           <p>CSS</p>
           <p>HTML</p>
@@ -119,7 +124,7 @@ export default function Home() {
 
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
-          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Albânia</h1>
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Albânia</h1>
           <a href="https://site-albania12a.netlify.app/"><img src={albania} alt="" className="rounded"/></a>
           <p>CSS</p>
           <p>HTML</p>
@@ -128,7 +133,7 @@ export default function Home() {
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
-          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">Cópia Apple</h1>
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Cópia Apple</h1>
           <a href="https://applecopiasaul.netlify.app/"><img src={apple} alt="" className="rounded"/></a>
           <p>CSS</p>
           <p>HTML</p>
@@ -136,15 +141,41 @@ export default function Home() {
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
-          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold">FeedBack</h1>
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">FeedBack</h1>
           <a href="https://feedback-ketlynmelo03ma.vercel.app/"><img src={feedback} alt="" className="rounded"/></a>
           <p>CSS</p>
           <p>HTML</p>
           <p>JavaScript</p>
         </div>
 
-        
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Opti-Color TCC</h1>
+          <a href="https://opti-color.vercel.app/"><img src={opti} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
 
+        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
+          <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Copa Calendário</h1>
+          <a href="https://calendariodacopa-eight.vercel.app/"><img src={copa} alt="" className="rounded"/></a>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+      </div>
+      {/* FIM CARROSSEL*/}
+
+      {/* CONTATO*/}
+
+      <div>
+        <h1 className="text-amarelo text-4xl text-center font-bela mt-10">Contate<strong className="text-white">-me</strong></h1>
+        <p className="text-white">ketlyn.melo@gmail.com</p>
+        <div>
+          <img src={zap} alt="" />
+          <img src={linkedin} alt="" />
+          <img src={github} alt="" />
+        </div>
       </div>
 
     </div>
