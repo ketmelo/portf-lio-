@@ -17,9 +17,10 @@ export default function Header() {
         <List size={32} /> 
       </button>
       <nav className={`w-full md:w-auto ${abrirMenu ? 'block' : 'hidden'} md:flex md:space-x-2.5 mt-4 md:mt-2 absolute mt-8 mb-10`}>
-        <ul className="flex flex-col md:flex-row p-4 md:p-0 space-y-2 md:space-y-0 bg-bgverde  xl:bg-opacity-0 font-zen-dots text-xs lg:text-xl lg:mt-6 xl:ml-36">
-          <li><a href="/" className="block text-white py-2 px-4 ">HOME</a></li>
-          <li><a href="/Contato" className="block text-white py-2 px-4 ">Contato</a></li>     
+        <ul className="flex flex-col md:flex-row p-4 md:p-0 space-y-2 md:space-y-0 bg-fundo  lg:bg-opacity-0 font-bela font-semibold text-xs lg:text-xl lg:mt-6 xl:ml-36">
+          <li><a href="/" className="block text-white py-2 px-4 ">Home</a></li>
+          <li><a href="/Contato" className="block text-white py-2 px-4 ">Contato</a></li>
+          <li><a href="https://github.com/ketmelo" className=' ml-3 text-white text-[9px] px-4 py-1 rounded-xl bg-gradient-to-r from-amarelo/100 via-black/70 to-black'>GitHub</a></li>     
         </ul>
       </nav>
     </header>

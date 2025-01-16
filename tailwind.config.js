@@ -15,13 +15,9 @@ module.exports = {
       colors:{
       'bgfundo': '#060505',
       'amarelo': '#D9DC00' ,
-      'verde': '#17625b',
-      'verdinho': '#4fc3a1',
-      'azulEscuro': '#0c2b32',
-      'azul': '#041c34',
-      'azulzao': '#091116',
-      'bgverde' : '#1C2825',
-      'fundo': '#2e6f24'
+      'cinza': '#7A7A7A',
+      'fundo': '#242424',
+      'final': '#7D7C7C',
       }
     },
 
