@@ -172,9 +172,9 @@ export default function Home() {
         <h1 className="text-amarelo text-4xl text-center font-bela mt-10">Contate<strong className="text-white">-me</strong></h1>
         <p className="text-white">ketlyn.melo@gmail.com</p>
         <div>
-          <img src={zap} alt="" />
-          <img src={linkedin} alt="" />
-          <img src={github} alt="" />
+          <a href="https://wa.me/5511980978450"><img src={zap} alt="" /></a>
+          <a href="https://www.linkedin.com/in/ketlyn-de-melo-73a0a0221/"><img src={linkedin} alt="" /></a>
+          <a href="https://github.com/ketmelo"><img src={github} alt="" /></a>
         </div>
       </div>
 
