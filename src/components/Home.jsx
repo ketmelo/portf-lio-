@@ -117,27 +117,36 @@ export default function Home() {
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Astronomy</h1>
           <a href="https://astronomy-website.netlify.app/"><img src={astronomy} alt="" className="rounded"/></a>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
           <p>CSS</p>
           <p>HTML</p>
           <p>JavaScript</p>
-          <p>Apenas Desktop</p>
+          </div>
+          <p className="font-bela text-sm text-center text-final">Apenas Desktop</p>
+          <a href="https://github.com/ketmelo/Astronomy" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
 
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Albânia</h1>
           <a href="https://site-albania12a.netlify.app/"><img src={albania} alt="" className="rounded"/></a>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
           <p>CSS</p>
           <p>HTML</p>
           <p>JavaScript</p>
+          </div>
+          <a href="https://github.com/saulgabriel7/Albania" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Cópia Apple</h1>
           <a href="https://applecopiasaul.netlify.app/"><img src={apple} alt="" className="rounded"/></a>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
           <p>CSS</p>
           <p>HTML</p>
           <p>JavaScript</p>
+          </div>
+          <a href="https://github.com/saulgabriel7/Apple" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
       </div>
     
@@ -147,25 +156,33 @@ export default function Home() {
        <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">FeedBack</h1>
           <a href="https://feedback-ketlynmelo03ma.vercel.app/"><img src={feedback} alt="" className="rounded"/></a>
-          <p>CSS</p>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
           <p>HTML</p>
           <p>JavaScript</p>
+          </div>
+          <a href="https://github.com/ketmelo/feedback" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Opti-Color TCC</h1>
           <a href="https://opti-color.vercel.app/"><img src={opti} alt="" className="rounded"/></a>
-          <p>CSS</p>
-          <p>HTML</p>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
+          <p>React</p>
+          <p>Tailwind</p>
           <p>JavaScript</p>
+          </div>
+          <a href="https://github.com/ketmelo/Opti-Color" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-white text-2xl text-center mt-3 mb-3 font-coiny font-semibold">Copa Calendário</h1>
           <a href="https://calendariodacopa-eight.vercel.app/"><img src={copa} alt="" className="rounded"/></a>
+          <div className="flex items-center justify-center font-bela text-sm space-x-4 mt-3">
           <p>CSS</p>
           <p>HTML</p>
           <p>JavaScript</p>
+          </div>
+          <a href="https://github.com/ketmelo/calendariodacopa" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
         </div>
        </div>
       </div>

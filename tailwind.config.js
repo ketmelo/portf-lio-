@@ -18,6 +18,7 @@ module.exports = {
       'cinza': '#7A7A7A',
       'fundo': '#242424',
       'final': '#7D7C7C',
+      'am': '#B0B300'
       }
     },
 
