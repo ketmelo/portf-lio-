@@ -27,7 +27,7 @@ export default function Home() {
       <Header/>
       <div className="relative">
         <img src={bgimg} alt="" className="w-full" />
-        <img src={circulo} alt="" className="absolute left-2 top-0 h-32 z-10 lg:h-64 lg:ml-5 lg:mt-36" />
+        <img src="" alt="" className="absolute left-2 top-0 h-32 z-10 lg:h-64 lg:ml-5 lg:mt-36" />
         
         <h1 className="absolute ml-36 top-12 text-white text-2xl font-coiny font-semibold z-20 lg:ml-80 lg:text-6xl lg:mt-36">
             Ketlyn Melo
@@ -88,17 +88,19 @@ export default function Home() {
          {/* Habilidades img */}
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
           <h1 className="text-amarelo text-2xl text-center mt-3 mb-3 font-bela font-semibold ">Habilidades</h1>
-          <div className="flex mt-2">
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-          <img src={reactn} alt="" />
+          <div className="lg:flex lg:justify-center lg:items-center">
+          <div className="flex mt-2 lg:flex-col ">
+          <img src={html} alt="" className="lg:h-16 " />
+          <img src={css} alt="" className="lg:h-16 lg:mt-3" />
+          <img src={js} alt="" className="lg:h-16 lg:mt-3" />
+          <img src={reactn} alt="" className="lg:h-16 lg:mt-3" />
           </div>
-          <div className="flex mt-3">
-          <img src={python} alt="" />
-          <img src={tailwind} alt="" className="ml-1" />
-          <img src={mysql} alt="" className="ml-3"/>
-          <img src={c} alt="" className="ml-1" />
+          <div className="flex mt-3 lg:flex-col">
+          <img src={python} alt="" className="lg:h-16"/>
+          <img src={tailwind} alt="" className="ml-1 lg:h-16 lg:mt-3" />
+          <img src={mysql} alt="" className="ml-3 lg:h-16 lg:mt-3"/>
+          <img src={c} alt="" className="ml-1 lg:h-16 lg:mt-3" />
+          </div>
           </div>
 
         </div>
@@ -123,7 +125,10 @@ export default function Home() {
           <p>JavaScript</p>
           </div>
           <p className="font-bela text-sm text-center text-final">Apenas Desktop</p>
-          <a href="https://github.com/ketmelo/Astronomy" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+        <div className="lg:flex justify-center">
+        <a href="https://astronomy-website.netlify.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white">Site</a>
+        <a href="https://github.com/ketmelo/Astronomy" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2 text-amarelo hover:text-white">Repositório</a>
+        </div>
         </div>
 
 
@@ -135,7 +140,10 @@ export default function Home() {
           <p>HTML</p>
           <p>JavaScript</p>
           </div>
-          <a href="https://github.com/saulgabriel7/Albania" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+          <div className="lg:flex justify-center">
+          <a href="https://site-albania12a.netlify.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white">Site</a>
+          <a href="https://github.com/saulgabriel7/Albania" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2 text-amarelo hover:text-white">Repositório</a>
+          </div>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
@@ -146,7 +154,10 @@ export default function Home() {
           <p>HTML</p>
           <p>JavaScript</p>
           </div>
-          <a href="https://github.com/saulgabriel7/Apple" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+          <div className="lg:flex justify-center">
+          <a href="https://applecopiasaul.netlify.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white">Site</a>
+          <a href="https://github.com/saulgabriel7/Apple" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2 text-amarelo hover:text-white">Repositório</a>
+          </div>
         </div>
       </div>
     
@@ -160,7 +171,11 @@ export default function Home() {
           <p>HTML</p>
           <p>JavaScript</p>
           </div>
-          <a href="https://github.com/ketmelo/feedback" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+          <div className="lg:flex justify-center">
+          <a href="https://feedback-nine-beige.vercel.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white">Site</a>
+          <a href="https://github.com/ketmelo/feedback" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2  
+           text-amarelo hover:text-white">Repositório</a>
+          </div>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
@@ -171,7 +186,10 @@ export default function Home() {
           <p>Tailwind</p>
           <p>JavaScript</p>
           </div>
-          <a href="https://github.com/ketmelo/Opti-Color" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+          <div className="lg:flex justify-center ">
+          <a href="https://opti-color.vercel.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white ">Site</a>
+          <a href="https://github.com/ketmelo/Opti-Color" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2 text-amarelo hover:text-white">Repositório</a>
+          </div>
         </div>
 
         <div className=" text-white p-3 w-64 text-xs mx-auto border-2 border-white rounded-lg mt-20">
@@ -182,7 +200,10 @@ export default function Home() {
           <p>HTML</p>
           <p>JavaScript</p>
           </div>
-          <a href="https://github.com/ketmelo/calendariodacopa" className="font-bela text-sm flex items-center justify-center mt-2">Site</a>
+          <div className="lg:flex justify-center">
+          <a href="https://calendariodacopa-eight.vercel.app/" className="font-bela text-sm flex items-center justify-center mt-2 text-amarelo hover:text-white ">Site</a>
+          <a href="https://github.com/ketmelo/calendariodacopa" className="font-bela text-sm flex items-center justify-center mt-2 lg:ml-2 text-amarelo hover:text-white">Repositório</a>
+          </div>
         </div>
        </div>
       </div>
