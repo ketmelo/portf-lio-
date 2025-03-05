@@ -11,7 +11,7 @@ export default function Contato() {
     <div className='bg-bgfundo'>
       <Header></Header>
       <img src={bgimg} alt="" className="w-full" />
-      <img src={circulo} alt="" className="absolute left-2 top-10 lg:top-0 h-32 z-10 lg:h-64 lg:ml-[500px] lg:mt-36" />
+      <img src="" alt="" className="absolute left-2 top-10 lg:top-0 h-32 z-10 lg:h-64 lg:ml-[500px] lg:mt-36" />
 
        {/* CONTATO*/}
       
